@@ -1,9 +1,3 @@
-{% for enum in types.enums %}
-extension {{ enum.name }} {
-static var count: Int { return {{ enum.cases.count }} }
-}
-{% endfor %}
-
 {% for type in types.implementing.AutoEquatable %}
 extension {{ type.name }}: Equatable {}
 

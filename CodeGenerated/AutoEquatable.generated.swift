@@ -2,12 +2,6 @@
 // DO NOT EDIT
 
 
-extension SomeEnum {
-static var count: Int { return 3 }
-}
-
-
-
 extension SomeClass: Equatable {}
 
 func == (lhs: SomeClass, rhs: SomeClass) -> Bool {
