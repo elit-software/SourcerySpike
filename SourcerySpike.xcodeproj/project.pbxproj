@@ -17,6 +17,8 @@
 		248A2CDD1E2258090053EAF0 /* Basic.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 248A2CDC1E2258090053EAF0 /* Basic.stencil */; };
 		248A2CDF1E2259BA0053EAF0 /* Basic.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A2CDE1E2259BA0053EAF0 /* Basic.generated.swift */; };
 		248A2CE21E225C9E0053EAF0 /* SomeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A2CE11E225C9E0053EAF0 /* SomeEnum.swift */; };
+		248A2CE41E225CF60053EAF0 /* SomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A2CE31E225CF60053EAF0 /* SomeClass.swift */; };
+		248A2CE61E225DEE0053EAF0 /* AutoEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248A2CE51E225DEE0053EAF0 /* AutoEquatable.swift */; };
 		BD0C419F31F251A67FBB3CCD /* Pods_SourcerySpikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DCEF9D582C88D68A813929 /* Pods_SourcerySpikeUITests.framework */; };
 		CCFF1E83BEE114E9FE7907AC /* Pods_SourcerySpikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A20FC203A017CE5D9461898 /* Pods_SourcerySpikeTests.framework */; };
 		FA22DE2F19E30352E75D048C /* Pods_SourcerySpike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF11900A8C3F8A279BDC699 /* Pods_SourcerySpike.framework */; };
@@ -57,6 +59,8 @@
 		248A2CDC1E2258090053EAF0 /* Basic.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Basic.stencil; path = Templates/Basic.stencil; sourceTree = "<group>"; };
 		248A2CDE1E2259BA0053EAF0 /* Basic.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Basic.generated.swift; path = CodeGenerated/Basic.generated.swift; sourceTree = "<group>"; };
 		248A2CE11E225C9E0053EAF0 /* SomeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeEnum.swift; sourceTree = "<group>"; };
+		248A2CE31E225CF60053EAF0 /* SomeClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeClass.swift; sourceTree = "<group>"; };
+		248A2CE51E225DEE0053EAF0 /* AutoEquatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoEquatable.swift; sourceTree = "<group>"; };
 		446A28B729973D4FE9FDD817 /* Pods-SourcerySpikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SourcerySpikeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SourcerySpikeUITests/Pods-SourcerySpikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		96D59E00EA5EE8C2EF9CA974 /* Pods-SourcerySpikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SourcerySpikeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SourcerySpikeTests/Pods-SourcerySpikeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9925428738AD22B5CA28A00 /* Pods-SourcerySpikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SourcerySpikeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SourcerySpikeUITests/Pods-SourcerySpikeUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,7 +126,9 @@
 		248A2CA91E2255600053EAF0 /* SourcerySpike */ = {
 			isa = PBXGroup;
 			children = (
+				248A2CE51E225DEE0053EAF0 /* AutoEquatable.swift */,
 				248A2CE11E225C9E0053EAF0 /* SomeEnum.swift */,
+				248A2CE31E225CF60053EAF0 /* SomeClass.swift */,
 				248A2CE01E225C810053EAF0 /* Supporting Files */,
 			);
 			path = SourcerySpike;
@@ -500,6 +506,8 @@
 			files = (
 				248A2CAD1E2255600053EAF0 /* ViewController.swift in Sources */,
 				248A2CDF1E2259BA0053EAF0 /* Basic.generated.swift in Sources */,
+				248A2CE41E225CF60053EAF0 /* SomeClass.swift in Sources */,
+				248A2CE61E225DEE0053EAF0 /* AutoEquatable.swift in Sources */,
 				248A2CE21E225C9E0053EAF0 /* SomeEnum.swift in Sources */,
 				248A2CAB1E2255600053EAF0 /* AppDelegate.swift in Sources */,
 			);

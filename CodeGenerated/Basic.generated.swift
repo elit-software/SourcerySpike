@@ -6,3 +6,15 @@ extension SomeEnum {
 static var count: Int { return 3 }
 }
 
+
+
+extension SomeClass: Equatable {}
+
+func == (lhs: SomeClass, rhs: SomeClass) -> Bool {
+ if lhs.first != rhs.first { return false }
+ if lhs.second != rhs.second { return false }
+ if lhs.third != rhs.third { return false }
+
+return true
+}
+
