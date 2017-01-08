@@ -12,3 +12,13 @@ func == (lhs: SomeClass, rhs: SomeClass) -> Bool {
 return true
 }
 
+extension SomeStruct: Equatable {}
+
+func == (lhs: SomeStruct, rhs: SomeStruct) -> Bool {
+ if lhs.first != rhs.first { return false }
+ if lhs.second != rhs.second { return false }
+ if lhs.third != rhs.third { return false }
+
+return true
+}
+
