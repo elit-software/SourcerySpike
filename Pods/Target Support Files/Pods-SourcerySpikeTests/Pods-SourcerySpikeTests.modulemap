@@ -1,0 +1,6 @@
+framework module Pods_SourcerySpikeTests {
+  umbrella header "Pods-SourcerySpikeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
